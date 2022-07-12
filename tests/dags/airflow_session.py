@@ -25,7 +25,7 @@ with DAG(
     default_args=default_args,
     description='A simple tutorial DAG',
     schedule_interval=timedelta(days=1),
-    start_date=datetime(2022, 6, 30),
+    start_date=datetime(2022, 7, 12),
     catchup=False,
 ) as dag:
 
