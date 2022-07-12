@@ -38,7 +38,7 @@ with DAG(
     t1 = BashOperator(
         task_id='print_hello_mobilityware',
         depends_on_past=False,
-        bash_command='echo hello_mobilityware',
+        bash_command='ech hello_mobilityware',
     )
 
     t2 = BashOperator(
